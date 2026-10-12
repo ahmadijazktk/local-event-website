@@ -1,0 +1,72 @@
+import { EventSeries } from '@/types/directory';
+
+export const mockSeriesList: EventSeries[] = [
+    {
+        id: 'srs-ai-summit',
+        slug: 'global-ai-summit-series-sr101',
+        canonicalName: 'Global Artificial Intelligence & Developer Summit Series',
+        organizerId: 'org-tech-forward',
+        organizerName: 'TechForward Global',
+        shortDescription: 'The landmark annual global conference series dedicated to machine learning, foundational AI models, and software engineering.',
+        fullDescription: 'Established in 2021, the Global AI Summit Series brings together developers, enterprise researchers, and AI innovators across major technology hubs worldwide including San Diego, San Francisco, London, and Dubai.',
+        officialUrl: 'https://techforward.example.org/ai-series',
+        primaryImage: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=1200&q=80',
+        categoryName: 'Technology and Artificial Intelligence',
+        occurrences: [
+            {
+                id: 'evt-ai-summit-2027',
+                slug: 'global-ai-summit-2027-ev892',
+                title: 'Global Artificial Intelligence & Developer Summit 2027',
+                dates: 'April 14 - 16, 2027',
+                cityName: 'San Diego, California',
+                status: 'scheduled',
+            },
+            {
+                id: 'evt-ai-summit-2026',
+                slug: 'global-ai-summit-2026-ev001',
+                title: 'Global Artificial Intelligence & Developer Summit 2026',
+                dates: 'April 18 - 20, 2026',
+                cityName: 'San Francisco, California',
+                status: 'completed',
+            },
+            {
+                id: 'evt-ai-summit-2025',
+                slug: 'global-ai-summit-2025-ev000',
+                title: 'Global Artificial Intelligence & Developer Summit 2025',
+                dates: 'April 22 - 24, 2025',
+                cityName: 'London, United Kingdom',
+                status: 'completed',
+            },
+        ],
+    },
+    {
+        id: 'srs-pacific-ux',
+        slug: 'pacific-design-ux-series-sr204',
+        canonicalName: 'Pacific Design & UX Leadership Series',
+        organizerId: 'org-pacific-design',
+        organizerName: 'Pacific Design Guild',
+        shortDescription: 'Annual west-coast gathering of digital product design heads and UX research pioneers.',
+        fullDescription: 'The Pacific Design & UX Leadership Series focuses on design systems, accessible interface engineering, and human-centered design strategy.',
+        officialUrl: 'https://pacificdesign.example.com/series',
+        primaryImage: 'https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=1200&q=80',
+        categoryName: 'Arts and Culture',
+        occurrences: [
+            {
+                id: 'evt-pacific-ux-2027',
+                slug: 'pacific-design-ux-conference-2027-ev415',
+                title: 'Pacific Design & UX Leadership Conference 2027',
+                dates: 'May 20 - 21, 2027',
+                cityName: 'San Diego, California',
+                status: 'scheduled',
+            },
+            {
+                id: 'evt-pacific-ux-2026',
+                slug: 'pacific-design-ux-conference-2026-ev002',
+                title: 'Pacific Design & UX Leadership Conference 2026',
+                dates: 'May 15 - 16, 2026',
+                cityName: 'San Diego, California',
+                status: 'completed',
+            },
+        ],
+    },
+];
